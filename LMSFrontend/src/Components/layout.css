@@ -1,0 +1,30 @@
+.layout {
+    background-image: url("https://brandeps.com/logo-download/H/Hexaware-Technologies-logo-vector-01.svg");
+    /* background-image: url("https://images.successstory.com/img_company/Hexaware_1454767809.jpg"); */
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+
+.btn {
+    margin-left: 20px;
+}
+
+.H1 {
+    font: italic 1.2em "Fira Sans", serif;
+    font-size: 44px;
+    color: rgb(4, 4, 56);
+    margin-top: -40px;
+
+
+} 
+
+.blink {
+    animation: blinker 5s linear infinite;
+    color: rgb(15, 15, 15);
+    font-family: sans-serif;
+}
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
